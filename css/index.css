@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+body{
+    color: white;
+    font-size: large;
+}
+main{
+    
+    width: 100vw;
+    height: 95vh;
+}
+#dia{
+    font-family: 'Courier New', Courier, monospace;
+}
+#relogio p{
+    text-align: center;
+    padding-top: 30px;  
+    padding-bottom: -10px;  
+    font-size: larger;
+
+}
+#h , #m{
+    color: red;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30pt;
+}
+#s{
+    color: red;
+    font-family: monospace;
+    font-size: 16pt;
+
+}
+footer{
+  
+    
+    font-family: courier;
+    font-size: small;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: red;
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
